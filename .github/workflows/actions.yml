@@ -11,7 +11,7 @@ jobs:
           pwd
           ls -ah
       - name: Checkout
-         uses: actions/checkout@v1
+        uses: actions/checkout@v1
       - name: List Files after checkout
         run: |
           pwd
